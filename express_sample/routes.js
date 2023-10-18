@@ -47,7 +47,7 @@ router.get('/item', (req, res) => {
 router.get('/item/:id', (req, res) => {
     const id = req.params.id
     // TODO: case1 RDBMS を利用する
-    // TODO: case2 APIサーバを利用する
+
     // itemモデルを使って IDで商品データを取得
     var selectItem = item.find(id)
 
